@@ -1,29 +1,30 @@
 #journey-highlights {
-    font-family: Arial, sans-serif;
-    padding:100px;
-    background-color: #f7f9fc;
-  }
+  font-family: Arial, sans-serif;
+  padding:100px;
+  background-color: #f7f9fc;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.year {
+  text-align: center;
+  border: 4px solid #ccc;
+  padding: 10px;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.year:hover {
+  transform: scale(1.05);
+}
+
+.year img {
+  width: 500px;
+  height: auto;
+  margin-top: 10px;
+}
   
-  .timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .year {
-    text-align: center;
-    border: 4px solid #ccc;
-    padding: 10px;
-    background-color: white;
-    transition: transform 0.3s ease;
-  }
-  
-  .year:hover {
-    transform: scale(1.05);
-  }
-  
-  .year img {
-    width: 500px;
-    height: auto;
-    margin-top: 10px;
-  }
